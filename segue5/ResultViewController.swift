@@ -19,7 +19,7 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
         
         let result = x + y
-        label.text = "結果は(\result)です"
+        label.text = "結果は \(result)です"
 
         // Do any additional setup after loading the view.
     }
